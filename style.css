@@ -304,6 +304,9 @@ li{
 
 /* media queries */
 @media (max-width:1024px){
+    #top{
+        height: auto;
+    }
     .content{
         display: grid;
         grid-template-columns: repeat(2,300px);
@@ -320,7 +323,9 @@ li{
 }
 
 @media (max-width:1000px){
-    
+    #top{
+        height: auto;
+    }
 
     .content{
         display: grid;
@@ -340,7 +345,7 @@ li{
     }
 
     
-.caro{
+    .caro{
     border-radius: 100%;
     width: 50%;
     height: 40%;
