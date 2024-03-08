@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+
+/*height weblit fill avaible navbar and footer shows karta h   */
+
+#top{
+    height: 80%;
+    width: 100%;
+}
+
+#skills{
+
+    border: 1px solid blue;
+    margin: 10% 4%;
+    padding: 2% 7%;
+    
+}
+
+.info{
+    border: 1px solid red;
+    display:grid;
+    grid-template-columns: repeat(2 ,auto);
+    align-items: center;
+     gap: 10px;
+}
+
+/* trust section code*/
+#trust{
+    background: linear-gradient(to right , blue , violet);
+    width: 100%;
+    
+    padding: 7%;
+}
+
+.trustInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.trustIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    gap: 100px;
+   padding-bottom: 2%;
+}
+.codeText{
+    font-size: 2rem;
+    color: white;
+}
+/*icons colors and styles  */
+.bi-briefcase{
+    font-size: 2rem;
+    color: black;
+}
+.bi-star-fill{
+    font-size: 2rem;
+    color: yellow;
+}
+
+.bi-award{
+    font-size: 2rem;
+    color: aqua;
+}
+
+/* section about */
+
+#about{
+       padding: 4% 10%;
+    margin: 5% 10%;
+
+} 
+
+/* heading */
+.heading {
+    color: blue;
+    font-size: 2.5rem;
+
+}
+
+.desc {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.lightDesc {
+    color: purple;
+}
+
+/* .bi-moon-fill{
+    font-size: 20px;
+    color:white;
+} */
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar {
+/* vh used here */
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    background: linear-gradient(to right, tomato, pink);
+    /* overflow-x: hidden;
+    overflow-y: scroll;
+    overflow-wrap: normal; */
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    gap: 40px;
+}
+
+.codingImg {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.readBtn {
+    color: white;
+    background-color: black;
+    width: 120px;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+}
+
+
+/* card component */
+.component {
+
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+   /* justify-content: center; */
+    
+    gap: 40px;
+}
+
+.card {
+    border: 1px solid black;
+
+}
+
+.card-header {
+    background-color: purple;
+}
+
+/* card h4s */
+    .appDesc{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+
+/* btn that will open website */
+.link-btn{
+   margin: 0 auto;
+  
+
+}
+
+/* imgs of component */
+.imgs {
+
+    border-radius: 100%;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+
+/* logos size for cards */
+
+/* todo list APP */
+.bi-card-checklist {
+    font-size: 80px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bi-bag-heart-fill {
+    font-size: 80px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+/* .groupSkills{
+border: 1px solid black;
+display: grid;
+grid-template-columns: repeat(2, 320px);
+justify-content: center;
+align-items: center;    
+gap: 40px;  
+} */
+
+
+
+.data1{
+    margin: 10px;
+    width: 50%;
+    color: blue;
+}
+/* img for data 1 */
+/* 
+.img1{
+    float: right;
+} */
+
+.data2{
+    margin: 10px;
+    width: 50%;
+    float: right;
+    
+}
+
+
+.data3{
+    margin: 10px;
+    width: 50%;
+    float: left;
+}
+
+
+.data4{
+    margin: 10px;
+    width: 50%;
+    float: right;
+}
+
+.text{
+    font-size: 1.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* footer code */
+#footer{
+    background: linear-gradient(to right , black, gray);
+    width: 100%;
+    padding: 7%;
+
+}
+li{
+    list-style: none;
+}
+
+.fl-text{
+    color: white;
+}
+
+.copyrightMsg{
+    color: white;
+}
+/* carouusel styles */
+
+.caro{
+    border-radius: 100%;
+    width: 30%;
+    height: 50%;
+    display: flex;
+/* below code to center img without any div  targetting */
+    margin: 0 auto;
+}
+
+/* media queries */
+@media (max-width:1024px){
+    .content{
+        display: grid;
+        grid-template-columns: repeat(2,300px);
+
+    }
+    .caro{
+        border-radius: 100%;
+        width: 60%;
+        height: 40%;
+        display: flex;
+    /* below code to center img without any div  targetting */
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:1000px){
+    
+
+    .content{
+        display: grid;
+        grid-template-columns: repeat(1, 500px);
+        justify-content: center;
+
+    }
+
+    .codingImg{
+       margin:  0 auto;
+    }
+
+    .component{
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        justify-content: center;
+    }
+
+    
+.caro{
+    border-radius: 100%;
+    width: 50%;
+    height: 40%;
+    display: flex;
+/* below code to center img without any div  targetting */
+    margin: 0 auto;
+}
+
+}
+
+
+@media (max-width:700px) {
+    .component{
+        display: grid;
+        grid-template-columns: repeat(1, 200px);
+        justify-content: center;
+    }
+    .desc{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    
+  
+   
+}
+
+
+/*  code to hide white spaces on mobile devices rafy */
+
+@media (max-width: 480px){
+    html,body{
+        margin: 0;
+        padding: 0;
+        overflow-x:hidden ;
+        width: 100%;
+        height: 100%;
+    }
+    .desc{
+        font-size: 15px;
+
+    }
+
+    .readBtn{
+        margin : 0 auto;
+    }
+
+    
+.caro{
+    border-radius: 100%;
+    width: 30%;
+    height: 20%;
+    display: flex;
+/* below code to center img without any div  targetting */
+    margin: 0 auto;
+}
+
+.caroText{
+    font-size: 1rem;
+    text-align: center;
+    color:chartreuse;
+}
+}
+/* code completed  */
